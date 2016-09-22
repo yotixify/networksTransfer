@@ -1,0 +1,70 @@
+g++ -Wall -g -o run main.cpp
+valgrind --leak-check=yes --show-reachable=yes -v ./run
+The size of the file is 621739 characters.
+The number of packets needed is: 11
+Made new Packet
+Constructing new Packet from serialized data
+Here is the ack! 0
+Here is Data! 61465
+Packet is being deleted
+Packet is being deleted
+Made new Packet
+Constructing new Packet from serialized data
+Here is the ack! 1
+Here is Data! 61465
+Packet is being deleted
+Packet is being deleted
+Made new Packet
+Constructing new Packet from serialized data
+Here is the ack! 2
+Here is Data! 61465
+Packet is being deleted
+Packet is being deleted
+Made new Packet
+Constructing new Packet from serialized data
+Here is the ack! 3
+Here is Data! 61465
+Packet is being deleted
+Packet is being deleted
+Made new Packet
+Constructing new Packet from serialized data
+Here is the ack! 4
+Here is Data! 61465
+Packet is being deleted
+Packet is being deleted
+Made new Packet
+Constructing new Packet from serialized data
+Here is the ack! 5
+Here is Data! 61465
+Packet is being deleted
+Packet is being deleted
+Made new Packet
+Constructing new Packet from serialized data
+Here is the ack! 6
+Here is Data! 61465
+Packet is being deleted
+Packet is being deleted
+Made new Packet
+Constructing new Packet from serialized data
+Here is the ack! 7
+Here is Data! 61465
+Packet is being deleted
+Packet is being deleted
+Made new Packet
+Constructing new Packet from serialized data
+Here is the ack! 8
+Here is Data! 61465
+Packet is being deleted
+Packet is being deleted
+Made new Packet
+Constructing new Packet from serialized data
+Here is the ack! 9
+Here is Data! 61465
+Packet is being deleted
+Packet is being deleted
+Made new Packet
+Constructing new Packet from serialized data
+Here is the ack! 10
+Here is Data! 7364
+Packet is being deleted
+Packet is being deleted
